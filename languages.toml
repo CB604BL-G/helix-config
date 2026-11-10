@@ -1,0 +1,24 @@
+# 现有的语言缩进配置保持不变
+[[language]]
+name = "c"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "cpp"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "cmake"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "lua"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "bash"
+indent = { tab-width = 4, unit = "\t" }
+
+[[language]]
+name = "rust"
+indent = { tab-width = 4, unit = "    " }

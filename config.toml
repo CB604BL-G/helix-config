@@ -1,0 +1,27 @@
+theme = "catppuccin_cb604bl"
+
+[editor]
+cursorline = true
+bufferline = "always"
+popup-border = "menu"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+separator = "│"
+mode.normal = "\uf06e NORMAL"
+mode.insert = "\uf044 INSERT"
+mode.select = "\ueb85 SELECT"
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
+
+[keys.insert]
+tab = "insert_tab"

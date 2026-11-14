@@ -1,4 +1,4 @@
-theme = "catppuccin_cb604bl"
+theme = "catppuccin_changed"
 
 [editor]
 cursorline = true
@@ -25,3 +25,19 @@ workspace-diagnostics = ["warning", "error"]
 
 [keys.insert]
 tab = "insert_tab"
+
+[editor.indent-guides]
+render = true
+character = "┊"
+skip-levels = 0
+
+[editor.whitespace.render]
+space = "all"
+nbsp = "all"
+nnbsp= "all"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
